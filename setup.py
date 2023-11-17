@@ -26,3 +26,7 @@ setup(
     packages=find_packages(),
     install_requires=get_requirements("requirements.txt"),
 )
+
+# option_settings:
+#     "aws:elasticbeanstalk:container:python":
+#         WSGIPath: application:application
