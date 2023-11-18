@@ -4,9 +4,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet
 from src.exception.exception import CustomException
 from src.logging.logging import logging
-
 from src.utils.utils import save_object, evaluate_model
-
 from dataclasses import dataclass
 import sys
 import os
